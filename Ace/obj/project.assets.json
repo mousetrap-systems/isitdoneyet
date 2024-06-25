@@ -1,0 +1,111 @@
+{
+  "version": 3,
+  "targets": {
+    "net8.0": {
+      "DelightfulCode/0.0.12-beta": {
+        "type": "package",
+        "compile": {
+          "lib/net8.0/DelightfulCode.dll": {}
+        },
+        "runtime": {
+          "lib/net8.0/DelightfulCode.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "DelightfulCode/0.0.12-beta": {
+      "sha512": "qpAJBkspS0F2R1VB32v2KKy+gPNDpHhunL11mvjq4A0WCmKlr0qv+L4SYe2WdNICQv1iY4Ji/fk92DkWJoASDg==",
+      "type": "package",
+      "path": "delightfulcode/0.0.12-beta",
+      "files": [
+        ".nupkg.metadata",
+        "delightfulcode.0.0.12-beta.nupkg.sha512",
+        "delightfulcode.nuspec",
+        "lib/net8.0/DelightfulCode.dll",
+        "license"
+      ]
+    }
+  },
+  "projectFileDependencyGroups": {
+    "net8.0": [
+      "DelightfulCode >= 0.0.12-beta"
+    ]
+  },
+  "packageFolders": {
+    "C:\\Users\\Warren\\.nuget\\packages\\": {},
+    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
+  },
+  "project": {
+    "version": "1.0.0",
+    "restore": {
+      "projectUniqueName": "D:\\CODE\\mousetrap\\isitdoneyet\\Ace\\Ace.csproj",
+      "projectName": "Ace",
+      "projectPath": "D:\\CODE\\mousetrap\\isitdoneyet\\Ace\\Ace.csproj",
+      "packagesPath": "C:\\Users\\Warren\\.nuget\\packages\\",
+      "outputPath": "D:\\CODE\\mousetrap\\isitdoneyet\\Ace\\obj\\",
+      "projectStyle": "PackageReference",
+      "fallbackFolders": [
+        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+      ],
+      "configFilePaths": [
+        "C:\\Users\\Warren\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+      ],
+      "originalTargetFrameworks": [
+        "net8.0"
+      ],
+      "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "C:\\Program Files\\dotnet\\library-packs": {},
+        "D:\\CODE\\github\\mousetrap-systems\\opensource\\DelightfulCode\\bin\\Debug": {},
+        "https://api.nuget.org/v3/index.json": {}
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "projectReferences": {}
+        }
+      },
+      "warningProperties": {
+        "warnAsError": [
+          "NU1605"
+        ]
+      },
+      "restoreAuditProperties": {
+        "enableAudit": "true",
+        "auditLevel": "low",
+        "auditMode": "direct"
+      }
+    },
+    "frameworks": {
+      "net8.0": {
+        "targetAlias": "net8.0",
+        "dependencies": {
+          "DelightfulCode": {
+            "target": "Package",
+            "version": "[0.0.12-beta, )"
+          }
+        },
+        "imports": [
+          "net461",
+          "net462",
+          "net47",
+          "net471",
+          "net472",
+          "net48",
+          "net481"
+        ],
+        "assetTargetFallback": true,
+        "warn": true,
+        "frameworkReferences": {
+          "Microsoft.NETCore.App": {
+            "privateAssets": "all"
+          }
+        },
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.300/PortableRuntimeIdentifierGraph.json"
+      }
+    }
+  }
+}
