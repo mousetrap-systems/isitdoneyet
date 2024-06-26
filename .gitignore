@@ -1,0 +1,14 @@
+﻿################################################################################
+# This .gitignore file was automatically created by Microsoft(R) Visual Studio.
+################################################################################
+
+/Ace/bin/
+/Ace/obj/
+/Ace.Audio/bin/
+/Ace.Audio/obj/
+/.vs/Autonomous Cognitive Entities (CORE)/DesignTimeBuild
+/.vs/Autonomous Cognitive Entities (CORE)/FileContentIndex
+/.vs/Autonomous Cognitive Entities (CORE)/v17/.futdcache.v2
+/.vs/Autonomous Cognitive Entities (CORE)/v17/.suo
+/.vs/Autonomous Cognitive Entities (CORE)/v17/DocumentLayout.json
+/.vs/ProjectEvaluation
